@@ -1,0 +1,309 @@
+@font-face
+{
+     font-family:'pacifico';
+	 src:url('fonts/Pacifico.ttf') format('truetype');
+}
+body
+{    
+     background-image: url("images/bg4.jpg");
+     background-size:100%;
+     background-repeat:no-repeat;
+     background-attachment:fixed;	 
+	 font-family:'pacifico',sans-serif;
+	 color:white;
+	 
+}
+
+#top
+{
+	height:25%;
+	width:80%;
+	padding:0;
+	margin:auto;
+
+	
+}
+
+#left
+{
+	height:99%;
+	width:auto;
+	float:left;
+	margin-left:0%;
+	margin-bottom:0;
+	background:rgba(255,255,255,0.9);
+	
+}
+
+#right
+{
+	height:100%;
+	width:74%;
+	float:left;
+	color:#fff;
+	font-size:390%;
+	padding-left:3%;
+	margin-left:0;
+	border-left:2px solid #1F618D;
+	
+	background: #fff; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, rgba(255,255,255,1),rgba(255,255,255,0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right,rgba(255,255,255,1),rgba(255,255,255,0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, rgba(255,255,255,1), rgba(255,255,255,0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #34495E,rgba(255,255,255,0)); /* Standard syntax (must be last) */
+}
+
+#main
+{
+	height:auto;
+	width:25%;
+	top:50px;
+	margin:auto;
+	margin-top:20px;
+	margin-right:10%;
+	color:white;
+   	background-color: rgba(33, 97, 140,0.9);
+	border:2px solid #1F618D;
+	float:right;
+	border-radius:5px;
+}
+
+#main_left1
+{
+	height:52%;
+	width:50%;
+	top:50px;
+	margin:auto;
+	margin-top:20px;
+	margin-left:10%;
+	color:white;
+   	background-color: rgba(52, 73, 94,0.4);
+	border:2px solid #1F618D;
+	float:left;
+	border-radius:5px;
+}
+
+#header
+{
+	
+	height:15%;
+	width:100%;
+	font-size:250%;
+	text-align:center;
+	position:relative;
+	
+}
+
+#footer
+{
+	height:5%;
+	width:100%;
+	color:#fff;
+	margin-top:20px;
+	
+}
+
+h1
+{
+	position:absolute;
+	top:1px;
+	width:100%;
+	color:#fff;
+	
+}
+
+#dob
+{
+	text-align:center;
+}
+
+input[type=text]
+{
+	width:100%;
+	height:70%;
+	padding:10px;	
+	margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid  #1F618D;
+    border-radius: 4px;
+	transition:0.2s;
+	outline:none;
+	text-align:center;
+}
+
+input[type=text]:focus
+{
+	background-color:#5DADE2;
+}
+input[type=text]:focus::-webkit-input-placeholder
+{
+    color:white;	
+}
+
+input[type=password]
+{
+	width:100%;
+	height:70%;
+	padding:10px;
+	margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid  #1F618D;
+    border-radius: 4px;
+	transition:0.2s;
+	outline:none;
+	text-align:center;
+}
+
+input[type=password]:focus
+{
+	background-color:#5DADE2;
+}
+input[type=password]:focus::-webkit-input-placeholder
+{
+    color:white;	
+}
+
+input[type=email]
+{
+	width:100%;
+	height:70%;
+	padding:10px;
+	margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid  #1F618D;
+    border-radius: 4px;
+	transition:0.2s;
+	outline:none;
+	text-align:center;
+}
+
+input[type=email]:focus
+
+{
+	background-color:#5DADE2;
+	
+}
+input[type=email]:focus::-webkit-input-placeholder
+{
+    color:white;	
+}
+
+input[type=date]
+{
+	width:100%;
+	height:70%;
+	padding:10px;
+	margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid  #1F618D;
+    border-radius: 4px;
+	transition:0.2s;
+	outline:none;
+	text-align:center;
+}
+
+input[type=date]:focus
+{
+     background-color:#5DADE2;
+}
+input[type=date]:focus::-webkit-input-placeholder
+{
+    color:white;	
+}
+
+input::-webkit-input-placeholder
+{
+   color:grey;
+}
+
+
+.input
+{
+	height:10%;
+	width:95%;
+	margin-top:1%;
+    margin:auto;
+	color:white;
+	
+}
+
+#gender
+{
+	text-align:center;
+	height:3%;
+	width:95%;
+	margin-top:2%;
+	margin-bottom:5%;
+	color:#fff;
+	font-size:150%;
+}
+
+
+
+.button {
+  display: inline-block;
+  width:70%;
+  border-radius: 4px;
+  background-color: #fff;
+  border: none;
+  color: #1F618D;
+  text-align: center;
+  font-size: 24px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top:15px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+a:link
+{
+	color:#fff;
+	text-decoration:none;
+}
+
+a:visited
+{
+	color:#fff;
+}
+
+a:hover
+{
+	text-decoration:underline;
+}
+
+a:active
+{
+	text-decoration:underline;
+	color:#fff;
+}
+
+
+
+
+
